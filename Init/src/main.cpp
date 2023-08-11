@@ -28,10 +28,12 @@
 #define UART_RX_DEBUG 44
 
 void setup() {
-  
+  pinMode(LED_STATUS,OUTPUT);
+
 }
 
 void loop() {
-
+    digitalWrite(LED_STATUS,LOW);
+    
 }
 
