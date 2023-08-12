@@ -33,7 +33,10 @@ void setup() {
 }
 
 void loop() {
-    digitalWrite(LED_STATUS,LOW);
+  digitalWrite(LED_STATUS,LOW);
+  delay(300);
+  digitalWrite(LED_STATUS,HIGH);
+  delay(300);  
     
 }
 
